@@ -1,5 +1,5 @@
 import { StyledMain, BackgroundContainer } from "../styles/styledProducts";
-import gel from "../assets/images/products/gel.jpg";
+import gel from "../assets/images/products/gel.png";
 import kaiak from "../assets/images/products/kaiak.jpeg";
 
 export const Products = () => {
@@ -18,13 +18,13 @@ export const Products = () => {
               <h3>R$ 15,00</h3>
             </div>
           </li>
-          <li className="product">
+          {/* <li className="product">
             <img src={kaiak} alt="Perfume Kaik" />
             <div className="products__info">
               <h3>Kaiak </h3>
               <h3>R$ 55,00</h3>
             </div>
-          </li>
+          </li> */}
         </ul>
       </StyledMain>
     </>
